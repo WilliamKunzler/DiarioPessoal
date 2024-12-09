@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>Adicionar Novo Fato</h2>
+<form  class="esse"  method="POST">
+    <label for="titulo">Título</label>
+    <input type="text" id="titulo" name="titulo" required>
+    <label for="texto">Texto</label>
+    <textarea id="texto" name="texto" required></textarea>
+    <button type="submit" class="enviar">Adicionar</button>
+</form>
+{% endblock %}

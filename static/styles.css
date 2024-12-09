@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+header {
+    background: #96d7d4;
+    color: #fff;
+    padding: 10px 20px;
+}
+header  a {
+    color: #fff;
+    margin-right: 10px;
+    text-decoration: none;
+}
+main {
+    padding: 20px;
+}
+.esse {
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    height: 300px;
+    margin: 0 auto;
+}
+form label {
+    display: block;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+input, textarea {
+    width: 70%;
+    height: 30px;
+}
+
+.enviar {
+    background-color: green;
+    color: white;
+    width: 50%;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.excluir{
+    background-color: transparent;
+    color: red;
+    border: none;
+    border: none;
+    width: 100%;
+    height: 30px;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+.row span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 30px;
+}
+
+.row a {
+    text-decoration: none;
+}
+
+h2 {
+    padding-left: 20px;
+}
+
+.tudo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.global {
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+
+.container p {
+    max-width: 100%;
+    text-align: justify;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-inline: 20px;
+    
+}
+
+.container {
+    margin-top: 10px;
+    border: 1px solid black;
+    height: 300px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container a {
+    color: black;
+}
+
+.este {
+    margin-top: 10px;
+}
+
+.outro {
+    display: flex;
+    justify-content: center;
+    flex-direction: column  ;
+    height: 300px;
+}
+
+.atualizar {
+    width: 30%;
+    margin-top: 20px;
+    height: 30px;
+    border: none;
+    background-color: lightseagreen;
+    color: white    ;
+}

@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>Editar Fato</h2>
+<form class="outro" method="POST">
+    <label for="titulo">Título:</label>
+    <input type="text" id="titulo" name="titulo" value="{{ conto.titulo }}" required>
+    <label for="texto">Texto:</label>
+    <textarea id="texto" name="texto" required>{{ conto.texto }}</textarea>
+    <button type="submit" class="atualizar">Atualizar</button>
+</form>
+{% endblock %}

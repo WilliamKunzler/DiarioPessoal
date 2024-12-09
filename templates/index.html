@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>Todos os Fatos</h2>
+<div class="global">
+{% for conto in contos %}
+    <div class="container">
+
+        <div class="tudo">
+            <h2>{{ conto.titulo }}</h2>
+            <div class="row">
+
+                <a href="{{ url_for('edit', id=conto.id) }}"><span class="material-symbols-outlined" >edit</span></a>
+                <form action="{{ url_for('delete', id=conto.id) }}" method="POST"  class="este" >
+                    <button type="submit" class="excluir"><span class="material-symbols-outlined">
+                        delete
+                        </span></button>
+                </form>
+            </div>
+        </div>
+        <p>{{ conto.texto }}</p>
+    </div>
+{% endfor %}
+</div>
+{% endblock %}
